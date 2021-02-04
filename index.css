@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url('./pexels-benjamin-suter-3617500.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+
+header .search-box {
+    width: 60%;
+    padding: 20px 15px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0,0,0,0.12);
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.location {
+    margin-bottom: 30px;
+}
+
+.location .city {
+    font-size: 18pt;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+} 
+
+
+.location .date {
+    font-size: 10pt;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+} 
+
+.current .temp {
+    font-size: 50pt;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+.current .weather {
+    font-size: 15pt;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+
+.current .hi-low {
+    font-size: 10pt;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
+
+.reserved {
+    font-size: 10pt;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.281);
+}
